@@ -1,0 +1,166 @@
+/* imports */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+
+body{
+    background-color: rgba(181, 235, 212, 0.986);
+}
+
+/* heading */
+.head{
+    font-size: 1.5cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5px;
+    font-family: 'Poppins',sans-serif;
+    text-align: left;
+    display: flex;
+    background-color: rgb(189, 247, 194);
+}
+  
+  .left {
+    color: rgb(223, 117, 23);
+    padding-left: 415px;
+  }
+  
+  .right {
+    color: rgb(9, 17, 111);
+    padding-right: 150px;
+  }
+
+  .est{
+    font-size: 1cm;
+    padding-top: 4%;
+    font-size: 1.3cm;
+    margin-left: -3.9cm;
+  }
+
+/* navigation */
+.navigation{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: rgb(146, 248, 143);
+    opacity: 10;
+    color: darkblue;
+    padding: 8px 18px;
+    font-size: 25;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+
+.nO{
+    font-size: 27px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: teal;
+}
+
+.nO1{
+    text-align: center;
+    color: red;
+    border-style: dashed;
+    border-radius: 80%;
+    font-size: 30px;
+    font-weight: 600px;
+    padding-left: 9px;
+    
+}
+
+.nO:hover{
+    color: crimson;
+    font-weight: bold;
+    /* font-size: 32px; */
+}
+
+.call-us-button {
+    border-radius: 30%;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 183, 183);
+    color: white;
+    border: none;
+  }
+
+
+.f1{
+    background-image: url(img/pltn/alyani-yang-WajET_vzPmI-unsplash.jpg);
+
+    /* background-color: rgba(27, 27, 27, 0.877); */
+    background-size: cover;
+    background-position: center;
+    height: 575px;
+    width: 1520px;
+    background-color:rgba(0, 0, 0, 0.5);;
+    padding-left: 1cm;
+}
+
+.f3{
+    background-image: url(img/pltn/lawrence-kayku-frWOcVisp8U-unsplash.jpg);
+
+    /* background-color: rgba(27, 27, 27, 0.877); */
+    background-size: cover;
+    background-position: center;
+    height: 575px;
+    width: 1520px;
+    background-color:rgba(0, 0, 0, 0.5);;
+    padding-left: 1cm;
+}
+
+
+.facilities{
+    display: flex;
+    background-color: #50ff76;
+    /* padding-top: 40px;  */
+    padding-top: 2px;
+    height: 200px;
+}
+
+.facilities3{
+    font-size: 19px;
+    display: flex;
+    background-color: #50ff76;
+    padding-bottom: 9px;
+}
+
+
+.contact{
+    display: flex;
+    align-items: center;
+
+}
+
+
+/* ENDING BOX */
+.endingbox{
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    height: 200px;
+    padding-left: 0px;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+.fitlogo{
+    width: 150px;
+    height: auto;
+    align-items: left;
+    background-color: #333;
+    opacity: 20%;
+    padding-right: 1cm;
+    float: right;
+}
+
+.fitlogo:hover{
+    opacity: 100%;
+}
